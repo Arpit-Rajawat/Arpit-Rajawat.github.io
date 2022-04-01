@@ -24685,6 +24685,14 @@ body::before {
     height: 100vh;
 }
 
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.otherWorks a:hover .arrowIcon {
+    transform: rotate(-45deg);
+}
+
 a .card-footer:hover {
     background-color: #000000bf;
 }
