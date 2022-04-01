@@ -63,15 +63,16 @@ html {
 }
 
 .stroke-only {
-  fill: none;
-  stroke: #eee;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  transition: 600ms transform cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    fill: none;
+    stroke: #eee;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: 600ms transform cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+
 .transform-center-center {
-  transform-origin: center center;
+    transform-origin: center center;
 }
 
 article,
@@ -12715,31 +12716,31 @@ button.bg-dark:focus {
     font-weight: bolder !important;
 }
 
-.font-weight-100{
+.font-weight-100 {
     font-weight: 100 !important;
 }
 
-.font-weight-200{
+.font-weight-200 {
     font-weight: 200 !important;
 }
 
-.font-weight-300{
+.font-weight-300 {
     font-weight: 300 !important;
 }
 
-.font-weight-400{
+.font-weight-400 {
     font-weight: 400 !important;
 }
 
-.font-weight-500{
+.font-weight-500 {
     font-weight: 500 !important;
 }
 
-.font-weight-600{
+.font-weight-600 {
     font-weight: 600 !important;
 }
 
-.font-weight-700{
+.font-weight-700 {
     font-weight: 700 !important;
 }
 
@@ -13147,7 +13148,7 @@ a.text-dark:focus {
     background: transparent !important;
 }
 
-.bg-theme-dark{
+.bg-theme-dark {
     background: var(--themedark);
 }
 
@@ -21749,6 +21750,7 @@ a.card-title[class*="-arrow"]::after {
     -moz-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
+    z-index: 99;
 }
 
 .hover-border:hover {
@@ -24566,41 +24568,42 @@ body::before {
 
 /*-- My Custom CSS --*/
 
-.bg-black{
+.bg-black {
     background-color: var(--black);
 }
 
-.br-1{
+.br-1 {
     border-radius: 1rem;
 }
 
-.br-2{
+.br-2 {
     border-radius: 2rem;
 }
 
-.logo-text{
+.logo-text {
     font-family: var(--font-family-cursive);
 }
 
-.mono-height{
+.mono-height {
     height: 2rem;
 }
 
-.footer-logo{
+.footer-logo {
     height: 5rem;
 }
 
-.header-link, .footer-link{
+.header-link,
+.footer-link {
     font-weight: 600;
     color: #5e646f !important;
 }
 
-.header-link:hover{
+.header-link:hover {
     font-weight: 600;
     color: #3f25e8 !important;
 }
 
-.footer-link:hover{
+.footer-link:hover {
     font-weight: 600;
     color: #fff !important;
 }
@@ -24653,95 +24656,78 @@ body::before {
     width: 100%;
 }
 
-.emoji-namaste{
+.emoji-namaste {
     width: 1.75rem;
     margin-right: 1rem;
 }
 
-.color-black{
+.color-black {
     color: var(--black);
 }
 
-.color-indigo{
+.color-indigo {
     color: var(--indigo);
 }
 
-.fs-2{
+.fs-2 {
     font-size: 2rem;
 }
 
-#footerDiv a{
+#footerDiv a {
     color: #5e646f !important;
 }
 
-#footerDiv a:hover{
+#footerDiv a:hover {
     color: #fff !important;
 }
 
-.landingSection{
+.landingSection {
     height: 100vh;
 }
 
-a .card-footer:hover{
+a .card-footer:hover {
     background-color: #000000bf;
 }
 
 .cursor {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: var(--width);
-  height: var(--height);
-  transform: translate(calc(var(--x) - var(--width) / 2), calc(var(--y) - var(--height) / 2));
-  /* transition-duration: 125ms;
-  transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
-  transition-property: width, height, transform; */
-  transition: 150ms width cubic-bezier(0.39, 0.575, 0.565, 1),
-              150ms height cubic-bezier(0.39, 0.575, 0.565, 1),
-              150ms transform cubic-bezier(0.39, 0.575, 0.565, 1);
-  z-index: 1;
-  pointer-events: none;
-  will-change: transform;
-}
-
-a:hover .cursor{
     display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 50px;
-  height: 50px;
-  transform: scale(1.5);
-  /* transition-duration: 125ms;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    transform: translate(calc(var(--x) - var(--width) / 2), calc(var(--y) - var(--height) / 2));
+    /* transition-duration: 125ms;
   transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
   transition-property: width, height, transform; */
-  transition: 150ms width cubic-bezier(0.39, 0.575, 0.565, 1),
-              150ms height cubic-bezier(0.39, 0.575, 0.565, 1),
-              150ms transform cubic-bezier(0.39, 0.575, 0.565, 1);
-  z-index: 1;
-  pointer-events: none;
-  will-change: transform;
+    transition: 150ms width cubic-bezier(0.39, 0.575, 0.565, 1),
+        150ms height cubic-bezier(0.39, 0.575, 0.565, 1),
+        150ms transform cubic-bezier(0.39, 0.575, 0.565, 1);
+    z-index: 1;
+    pointer-events: none;
+    will-change: transform;
 }
 
 @media (pointer: fine) {
-  .cursor {
-      display: block;
-  }
+    .cursor {
+        display: block;
+    }
 }
+
 .cursor::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: var(--radius);
-  border: 2px solid #2B44FF;
-  opacity: var(--scale);
-  -webkit-transform: scale(var(--scale));
-          transform: scale(var(--scale));
-  transition: 300ms opacity cubic-bezier(0.39, 0.575, 0.565, 1),
-              300ms transform cubic-bezier(0.39, 0.575, 0.565, 1),
-              150ms border-radius cubic-bezier(0.39, 0.575, 0.565, 1);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--radius);
+    border: 2px solid #2B44FF;
+    opacity: var(--scale);
+    -webkit-transform: scale(var(--scale));
+    transform: scale(var(--scale));
+    transition: 300ms opacity cubic-bezier(0.39, 0.575, 0.565, 1),
+        300ms transform cubic-bezier(0.39, 0.575, 0.565, 1),
+        150ms border-radius cubic-bezier(0.39, 0.575, 0.565, 1);
 }
+

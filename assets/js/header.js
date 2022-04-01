@@ -5,7 +5,7 @@ let aboutmeLink = "aboutme.html"
 let header_div = `<header class="header header-sticky header-light">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-          <a href="${homeLink}" class="navbar-brand mr-8 d-flex align-items-center">
+          <a href="${homeLink}" class="navbar-brand d-flex align-items-center">
               <img src="assets/images/ARIcon.svg" alt="">
               <h4 class="ml-1 display-5">Arpit Rajawat</h4>
           </a>
