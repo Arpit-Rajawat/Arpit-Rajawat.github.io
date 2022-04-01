@@ -24699,6 +24699,7 @@ body::before {
 
 .otherWorks a:hover .arrowIcon {
     transform: rotate(-45deg);
+    border: 1px dotted #ddd;
 }
 
 .border-bottom{
