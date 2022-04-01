@@ -24689,8 +24689,20 @@ body::before {
     justify-content: space-between;
 }
 
+.otherWorks h4{
+    color: #000;
+}
+
+.otherWorks p{
+    color: #707070;
+}
+
 .otherWorks a:hover .arrowIcon {
     transform: rotate(-45deg);
+}
+
+.border-bottom{
+    border-bottom: 1px solid #ddd;
 }
 
 a .card-footer:hover {
