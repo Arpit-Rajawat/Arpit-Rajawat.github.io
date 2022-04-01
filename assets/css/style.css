@@ -24700,8 +24700,8 @@ body::before {
 .otherWorks a:hover .arrowIcon {
     transform: rotate(-45deg);
     border: 1px dotted #ddd;
-    padding: 1rem;
     background-color: aqua;
+    border-radius: 50%;
 }
 
 .border-bottom{
