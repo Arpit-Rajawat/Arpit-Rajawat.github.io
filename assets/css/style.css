@@ -24731,3 +24731,16 @@ a .card-footer:hover {
         150ms border-radius cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
+.mobileCardDetails {
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+    .lgCardDetails {
+        display: none !important;
+    }
+
+    .mobileCardDetails {
+        display: block;
+    }
+}
