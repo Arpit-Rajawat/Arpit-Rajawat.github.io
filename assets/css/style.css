@@ -24767,3 +24767,7 @@ a .card-footer:hover {
         display: block;
     }
 }
+
+.pd-5{
+    padding: 5rem;
+}
