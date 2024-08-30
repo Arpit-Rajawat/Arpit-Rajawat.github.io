@@ -27,7 +27,7 @@ let header_div = `<header class="header header-sticky header-light">
                 </a>
               </li>
               <li class="nav-item dropdown dropdown-hover">
-                <a class="nav-link header-link nav-link-hover" href="assets/Arpit Rajawat_ Resume_2022.pdf" id="arpitResume" role="button" aria-haspopup="true" aria-expanded="false" download>
+                <a class="nav-link header-link nav-link-hover" href="assets/Arpit Rajawat_ Resume_2022.pdf" target="_blank" id="arpitResume" role="button" aria-haspopup="true" aria-expanded="false" download>
                   <i class="fa fa-arrow-down"></i> Download Resume
                 </a>
               </li>
